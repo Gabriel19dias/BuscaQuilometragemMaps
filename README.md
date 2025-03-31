@@ -1,8 +1,10 @@
-Solução para Buscar Distâncias e Thumbnails de Mapas entre CEPs
-Descrição
+#Solução para Buscar Distâncias e Thumbnails de Mapas entre CEPs
+
+
+#Descrição
 Este repositório contém uma solução em Python para buscar a distância entre dois CEPs no Google Maps e obter a imagem de thumbnail do trajeto, salvando os dados em uma planilha Excel. O código usa o Selenium para navegar no Google Maps e BeautifulSoup para extrair informações do HTML da página. Além disso, o link do Google Maps e a imagem de thumbnail também são extraídos e salvos na planilha.
 
-Funcionalidades
+#Funcionalidades
 Busca de Distância: Utiliza o Google Maps para calcular a distância entre dois CEPs fornecidos.
 
 Link para o Google Maps: Gera e salva o link direto do Google Maps para o trajeto entre os dois CEPs.
@@ -11,7 +13,7 @@ Thumbnail: Extrai o link da imagem de thumbnail do mapa utilizando o protocolo O
 
 Saída em Excel: Os resultados são salvos em uma planilha Excel, contendo o CEP de origem, o CEP de destino, a distância, o link para o Google Maps e o link da thumbnail do mapa.
 
-Tecnologias Utilizadas
+#Tecnologias Utilizadas
 Python: A linguagem principal utilizada para implementar a solução.
 
 Selenium: Para automação do navegador e interações com o Google Maps.
@@ -22,7 +24,7 @@ Pandas: Para manipulação e armazenamento dos dados em formato Excel.
 
 Requests: Para fazer requisições HTTP e obter o conteúdo das páginas do Google Maps para extrair a thumbnail.
 
-Como Funciona
+#Como Funciona
 1. Leitura da Planilha
 A solução começa lendo uma planilha Excel contendo duas colunas: uma com os CEPs de origem e outra com os CEPs de destino.
 
@@ -48,7 +50,7 @@ Link do Google Maps
 
 Thumbnail do Mapa
 
-6. Salvamento da Planilha
+#6. Salvamento da Planilha
 A planilha é salva com os resultados em um novo arquivo Excel.
 
 Como Usar
@@ -57,7 +59,7 @@ Instalar as dependências:
 
 Você precisará do Python 3 instalado em sua máquina.
 
-Instale as dependências necessárias utilizando pip:
+#Instale as dependências necessárias utilizando pip:
 
 bash
 Copiar
